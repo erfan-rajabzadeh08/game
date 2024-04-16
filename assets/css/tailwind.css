@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-exo text-white;
+    }
+    img {
+        @apply inline-block;
+    }
+    p {
+        @apply font-exo mb-4 last:mb-0 leading-7 text-gray-100;
+    }
+    li {
+        @apply last:mr-0;
+    }
+}
+
+@layer utilities {
+    @variants responsive {
+        .text-shadow {
+            text-shadow: 3px 3px 0px #b154f0;
+        }
+        .position-absolute {
+            position: absolute !important;
+        }
+    }
+}
+@layer components {
+    .signup-btn {
+        @apply w-37 leading-12 h-15 flex items-center text-white font-bold uppercase text-base justify-center font-exo group hover:opacity-80;
+    }
+    .primary-btn {
+        @apply w-230 md:text-2xl md:leading-12 h-73 flex items-center text-white font-bold justify-center font-exo group hover:opacity-80 leading-70 text-xl;
+    }
+    .absolute-center {
+        @apply absolute top-1/2 left-1/2 transform -translate-x-2/4 -translate-y-2/4 transition-all;
+    }
+    .is-sticky {
+        @apply fixed z-99 top-0 left-0 w-full bg-gray-800 bg-opacity-90;
+    }
+    .popup-mobile-menu {
+        @apply fixed top-0 right-0 w-full h-screen invisible opacity-0 transition-all z-99;
+    }
+    .show-mobile-menu {
+        @apply opacity-100 visible;
+    }
+    .mobile-menu-overlay {
+        @apply absolute empty-content top-0 left-0 w-full h-full bg-black bg-opacity-50 cursor-not-allowed;
+    }
+    .menu-expand {
+        @apply top-2.5 right-0 w-9 h-9 cursor-pointer leading-9 absolute text-center bg-gray-800 hover:bg-gray-700 bg-opacity-80 opacity-75;
+    }
+    .plus-minus {
+        @apply block relative w-3 text-center top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 content-before before:w-full before:block before:absolute before:top-0 before:transform before:rotate-90 before:border-b-1 border-b-1 transition-all;
+    }
+    .menu-item-has-children .sub-menu {
+        @apply h-0 opacity-0 transition-all invisible;
+    }
+    .menu-item-has-children.active .sub-menu {
+        @apply h-full opacity-100 visible pl-0;
+    }
+    .menu-item-has-children.active .menu-expand {
+        @apply bg-gray-700 bg-opacity-80
+    }
+    .menu-item-has-children.active .menu-expand .plus-minus {
+        @apply before:rotate-0 transition-all
+    }
+}

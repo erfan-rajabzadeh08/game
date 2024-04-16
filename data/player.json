@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Thundarman Game Expert",
+        "imgSrc": "/images/player/list/player-1.webp",
+        "alt": "Service Image",
+        "name": "Thunderman",
+        "subtitle": "40 LEVEL COMPLETED",
+        "slug": "1"
+    },
+    {
+        "title": "Lion King Game Expert",
+        "imgSrc": "/images/player/list/player-2.webp",
+        "alt": "Service Image",
+        "name": "Rosaline Emmons",
+        "subtitle": "26 LEVEL COMPLETED",
+        "slug": "2"
+    },
+    {
+        "title": "Wolf Smart Game Expert",
+        "imgSrc": "/images/player/list/player-3.webp",
+        "alt": "Service Image",
+        "name": "Willbarn Beharn",
+        "subtitle": "47 LEVEL COMPLETED",
+        "slug": "3"
+    },
+    {
+        "title": "JOHNNYBRAVO Game Expert",
+        "imgSrc": "/images/player/list/player-4.webp",
+        "alt": "Service Image",
+        "name": "Tasia Mancuso",
+        "subtitle": "83 LEVEL COMPLETED",
+        "slug": "4"
+    },
+    {
+        "title": "Super Power Game Expert",
+        "imgSrc": "/images/player/list/player-5.webp",
+        "alt": "Service Image",
+        "name": "Rosaline Emmons",
+        "subtitle": "72 LEVEL COMPLETED",
+        "slug": "5"
+    },
+    {
+        "title": "Warrior-782 Game Expert",
+        "imgSrc": "/images/player/list/player-6.webp",
+        "alt": "Service Image",
+        "name": "Willbarn Beharn",
+        "subtitle": "128 LEVEL COMPLETED",
+        "slug": "6"
+    }
+]

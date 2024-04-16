@@ -1,0 +1,44 @@
+[
+    {
+        "gameImage": "/images/others/popular-game-thumb1.webp",
+        "btnName": "Game Details",
+        "title": "Dinosours - Hunter Sniper Shooter",
+        "slug": "1",
+        "category": "1"
+    },
+    {
+        "gameImage": "/images/others/popular-game-thumb2.webp",
+        "btnName": "Game Details",
+        "title": "Alien Space Five Star",
+        "slug": "2",
+        "category": "2"
+    },
+    {
+        "gameImage": "/images/others/popular-game-thumb3.webp",
+        "btnName": "Game Details",
+        "title": "Space Adventure - SNIPER SHOOTER",
+        "slug": "3",
+        "category": "3"
+    },
+    {
+        "gameImage": "/images/others/popular-game-thumb4.webp",
+        "btnName": "Game Details",
+        "title": "Space Exploration Game",
+        "slug": "4",
+        "category": "4"
+    },
+    {
+        "gameImage": "/images/others/popular-game-thumb5.webp",
+        "btnName": "Game Details",
+        "title": "Alien Space Seven Star",
+        "slug": "5",
+        "category": "5"
+    },
+    {
+        "gameImage": "/images/others/popular-game-thumb2.webp",
+        "btnName": "Game Details",
+        "title": "Alien Space SNIPER SHOOTER",
+        "slug": "6",
+        "category": "1"
+    }
+]

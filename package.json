@@ -1,0 +1,33 @@
+{
+  "name": "bonx",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt",
+    "generate": "nuxt generate",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "@nuxtjs/moment": "^1.6.1",
+    "core-js": "^3.15.1",
+    "nuxt": "^2.15.7",
+    "postcss": "^8.3.11",
+    "swiper": "^5.4.5",
+    "tailwindcss-pseudo": "^1.0.3",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-backtotop": "^1.6.1",
+    "vue-cool-lightbox": "^2.7.4",
+    "vue-count-to": "^1.0.13",
+    "vue-disqus": "^4.0.1",
+    "vue-js-modal": "^2.0.1",
+    "vue-observe-visibility": "^1.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^1.2.1",
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "autoprefixer": "^10.3.7",
+    "tailwindcss": "^2.2.17",
+    "tailwindcss-pseudo-elements": "^2.0.0"
+  }
+}

@@ -6,7 +6,6 @@
         <div class="py-32">
             <div class="container">
                 <div class="grid grid-cols-1 sm:grid-cols-12">
-<<<<<<< HEAD
 
                     <div class="sm:col-span-6 lg:col-span-4 mt-10 sm:mt-0 ord3">
                         <FooterContactInfoWidget/>
@@ -19,19 +18,6 @@
                     </div>
                     <div class="sm:col-span-6 lg:col-span-4 ord1 ">
                         <FooterInfoWidget/>
-=======
-                    <div class="sm:col-span-6 lg:col-span-4">
-                        <FooterInfoWidget/>
-                    </div>
-                    <div class="sm:col-span-6 lg:col-span-3 mt-10 sm:mt-0">
-                        <FooterContactInfoWidget/>
-                    </div>
-                    <div class="sm:col-span-6 lg:col-span-3 mt-10 lg:mt-0">
-                        <FooterWinnerWidget/>
-                    </div>
-                    <div class="sm:col-span-6 lg:col-span-2 mt-10 lg:mt-0">
-                        <FooterMenuList/>
->>>>>>> 994ec5da85c7a0d07412275aa72d7f316cca830b
                     </div>
                 </div>
             </div>
@@ -39,11 +25,7 @@
         <!-- Main Footer End -->
 
         <!-- Footer Bottom Start -->
-<<<<<<< HEAD
         <!-- <div class="bg-gray-800 py-5">
-=======
-        <div class="bg-gray-800 py-5">
->>>>>>> 994ec5da85c7a0d07412275aa72d7f316cca830b
 
             <div class="container flex justify-between relative items-center md:flex-row flex-col-reverse">
 
@@ -63,11 +45,7 @@
 
             </div>
 
-<<<<<<< HEAD
         </div> -->
-=======
-        </div>
->>>>>>> 994ec5da85c7a0d07412275aa72d7f316cca830b
         <!-- Footer Bottom End -->
 
     </div>
@@ -79,13 +57,8 @@
         components: {
             FooterInfoWidget: () => import('@/components/Footer/FooterInfoWidget'),
             FooterContactInfoWidget: () => import('@/components/Footer/FooterContactInfoWidget'),
-<<<<<<< HEAD
 /*             FooterWinnerWidget: () => import('@/components/Footer/FooterWinnerWidget'),
  */            FooterMenuList: () => import('@/components/Footer/FooterMenuList')
-=======
-            FooterWinnerWidget: () => import('@/components/Footer/FooterWinnerWidget'),
-            FooterMenuList: () => import('@/components/Footer/FooterMenuList')
->>>>>>> 994ec5da85c7a0d07412275aa72d7f316cca830b
         },
         data() {
             return {
@@ -104,7 +77,6 @@
             }
         }
     }
-<<<<<<< HEAD
 </script>
 
 
@@ -124,6 +96,3 @@
 }
 }
 </style>
-=======
-</script>
->>>>>>> 994ec5da85c7a0d07412275aa72d7f316cca830b

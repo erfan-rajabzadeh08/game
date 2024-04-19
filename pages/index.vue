@@ -11,7 +11,6 @@
 
     <LiveStream/>
 
-<<<<<<< HEAD
 <!--     <UpcomingMatchesHome/> -->
 
    <!--  <CounterUp/> -->
@@ -21,17 +20,6 @@
 <!--     <Testimonial/> -->
 
 <!--     <BlogPost/> -->
-=======
-    <UpcomingMatchesHome/>
-
-    <CounterUp/>
-
-    <PopularGame/>
-
-    <Testimonial/>
-
-    <BlogPost/>
->>>>>>> 994ec5da85c7a0d07412275aa72d7f316cca830b
 
     <ContactBanner :paddingTop="paddingTop"/>
 
@@ -55,11 +43,7 @@ export default {
       BlogPost: () => import('@/components/BlogPost'),
       ContactBanner: () => import('@/components/ContactBanner'),
       Footer: () => import('@/components/Footer')
-<<<<<<< HEAD
   },
-=======
-  }, 
->>>>>>> 994ec5da85c7a0d07412275aa72d7f316cca830b
   data() {
       return {
           navOpen: false,

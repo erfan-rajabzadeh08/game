@@ -7,14 +7,8 @@
         <!-- Footer Logo End -->
 
         <!-- Text Start -->
-<<<<<<< HEAD
         <p class="text-start">گیم نت <strong>club80</strong> با ارائه پلی استیشن 5  ومحیطی پر هیجان همراه با کافی شاپ آ»اده ساخت یک روز رویایی برای شماست</p>
         <!-- Text End -->
-=======
-        <p>It long estabhed fact that reader will ditracted the readable content looking using readable.</p>
-        <!-- Text End -->
-
->>>>>>> 994ec5da85c7a0d07412275aa72d7f316cca830b
         <!-- Social Icon List Start -->
         <ul class="flex mt-4">
             <li v-for="(link, index) in links" :key="index" class="mr-4 last:mr-0">
@@ -48,11 +42,7 @@
                     {
                         href: "https://www.twitter.com",
                         BgShape: "/images/icon/twittre.webp",
-<<<<<<< HEAD
                         className: "icofont-telegram text-white"
-=======
-                        className: "icofont-twitter text-white"
->>>>>>> 994ec5da85c7a0d07412275aa72d7f316cca830b
                     }
                 ]
             }

@@ -27,11 +27,7 @@ module.exports = {
                 'yellow': '#ffb300',
                 'bright': '#1de3eb',
                 'punch': '#df4c21'
-<<<<<<< HEAD
             }),
-=======
-            }),    
->>>>>>> 994ec5da85c7a0d07412275aa72d7f316cca830b
             borderWidth: {
                 1: '1px',
             },
@@ -50,11 +46,7 @@ module.exports = {
                 px: '1px',
                 7.5: '30px',
                 23.5: '5.875rem',
-<<<<<<< HEAD
                 37: '9.813rem',
-=======
-                37: '9.813rem', 
->>>>>>> 994ec5da85c7a0d07412275aa72d7f316cca830b
                 15: '3.75rem',
                 55: '3.438rem',
                 68: '4.25rem',
@@ -81,17 +73,10 @@ module.exports = {
               999: '999',
               9999: '9999'
             },
-<<<<<<< HEAD
           /*   fontFamily: {
               'metal': ["'Metal Mania', cursive"],
               'exo': ["'Exo', sans-serif"]
             }, */
-=======
-            fontFamily: {
-              'metal': ["'Metal Mania', cursive"],
-              'exo': ["'Exo', sans-serif"]
-            },
->>>>>>> 994ec5da85c7a0d07412275aa72d7f316cca830b
             fontSize: {
               '7.5xl': ['7.5rem'],
               '5.5xl': ['5.5rem'],
@@ -112,11 +97,7 @@ module.exports = {
                 'before': 'before',
                 'after': 'after',
                 'not-first': 'not(:first-child)',
-<<<<<<< HEAD
             },
-=======
-            },        
->>>>>>> 994ec5da85c7a0d07412275aa72d7f316cca830b
             container: {
                 center: true,
                 padding: {

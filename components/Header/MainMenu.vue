@@ -4,7 +4,6 @@
         <nav>
             <ul class="flex  nav-home">
                 <li class="relative mr-14 group z-10 before:bg-nav-shape before:empty-content before:absolute before:w-23.5 before:h-11 before:z-n1 before:top-1/2 before:left-1/2 before:transform before:-translate-x-2/4 before:-translate-y-2/4 before:transition-all before:opacity-0 hover:before:opacity-100">
-<<<<<<< HEAD
                     <NuxtLink to="/" class="text-white uppercase text-xl font-bold  relative">خانه </NuxtLink>
                 </li>
 
@@ -13,25 +12,11 @@
                 </li>
                 <li class="relative mr-14 group z-10 before:bg-nav-shape before:empty-content before:absolute before:w-23.5 before:h-11 before:z-n1 before:top-1/2 before:left-1/2 before:transform before:-translate-x-2/4 before:-translate-y-2/4 before:transition-all before:opacity-0 hover:before:opacity-100">
                     <NuxtLink to="/about" class="text-white uppercase text-xl font-bold  relative">درباره ما </NuxtLink>
-=======
-                    <NuxtLink to="/" class="text-white uppercase text-xl font-bold font-exo relative">خانه </NuxtLink>
-                </li>
-
-                <li class="relative mr-14 group z-10 before:bg-nav-shape before:empty-content before:absolute before:w-23.5 before:h-11 before:z-n1 before:top-1/2 before:left-1/2 before:transform before:-translate-x-2/4 before:-translate-y-2/4 before:transition-all before:opacity-0 hover:before:opacity-100">
-                    <NuxtLink to="/game" class="text-white uppercase text-xl font-bold font-exo relative">بازی ها</NuxtLink>
-                </li>
-                <li class="relative mr-14 group z-10 before:bg-nav-shape before:empty-content before:absolute before:w-23.5 before:h-11 before:z-n1 before:top-1/2 before:left-1/2 before:transform before:-translate-x-2/4 before:-translate-y-2/4 before:transition-all before:opacity-0 hover:before:opacity-100">
-                    <NuxtLink to="/about" class="text-white uppercase text-xl font-bold font-exo relative">درباره ما </NuxtLink>
->>>>>>> 994ec5da85c7a0d07412275aa72d7f316cca830b
                 </li>
 
 
                 <li class="relative content-nav group z-10 before:bg-nav-shape before:empty-content before:absolute before:w-23.5 before:h-11 before:z-n1 before:top-1/2 before:left-1/2 before:transform before:-translate-x-2/4 before:-translate-y-2/4 before:transition-all before:opacity-0 hover:before:opacity-100">
-<<<<<<< HEAD
                     <NuxtLink to="/contact" class="text-white uppercase text-xl font-bold  relative">ارتباط باما</NuxtLink>
-=======
-                    <NuxtLink to="/contact" class="text-white uppercase text-xl font-bold font-exo relative">ارتباط باما</NuxtLink>
->>>>>>> 994ec5da85c7a0d07412275aa72d7f316cca830b
                 </li>
 
 
@@ -111,8 +96,4 @@
         </nav>
     </div>
     <!-- Menu End -->
-<<<<<<< HEAD
 </template>
-=======
-</template>
->>>>>>> 994ec5da85c7a0d07412275aa72d7f316cca830b

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-<template >
-=======
 <template>
->>>>>>> 994ec5da85c7a0d07412275aa72d7f316cca830b
   <!-- Live Section Start -->
   <section class="live-section">
     <div class="container relative">
@@ -15,13 +11,8 @@
 
       <swiper class="swiper" :options="swiperOption">
         <swiper-slide v-for="(match, imageIndex) in matchesData" :key="imageIndex">
-<<<<<<< HEAD
-          <div class="relative image-background">
-            <img class="sm:h-full  w-full object-cover" :src="`${match.gamingBg}`" :alt="match.gamingAlt">
-=======
           <div class="relative">
             <img class="sm:h-full h-64 w-full object-cover" :src="`${match.gamingBg}`" :alt="match.gamingAlt">
->>>>>>> 994ec5da85c7a0d07412275aa72d7f316cca830b
             <div @click="index = imageIndex" class="absolute-center">
               <img class="md:w-120 w-20 h-20 md:h-120 cursor-pointer rounded" :src="`${match.playBtnOne}`" :alt="match.playAlt">
             </div>
@@ -51,11 +42,6 @@
   import { Swiper, SwiperSlide } from 'vue-awesome-swiper';
   import '../assets/css/swiper.css';
   import matchesData from '../data/matches.json'
-<<<<<<< HEAD
-
-=======
-  
->>>>>>> 994ec5da85c7a0d07412275aa72d7f316cca830b
   export default {
 
     components: {
@@ -79,7 +65,6 @@
       }
     }
   }
-<<<<<<< HEAD
 </script>
 
 <style scoped>
@@ -90,6 +75,3 @@
   height:3375%;
 }
 </style>
-=======
-</script>
->>>>>>> 994ec5da85c7a0d07412275aa72d7f316cca830b

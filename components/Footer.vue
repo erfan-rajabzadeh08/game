@@ -7,16 +7,16 @@
             <div class="container">
                 <div class="grid grid-cols-1 sm:grid-cols-12">
 
-                    <div class="sm:col-span-6 lg:col-span-4 mt-10 sm:mt-0 ord3">
+                    <div class="sm:col-span-12 lg:col-span-6 mt-10 sm:mt-0 ord3">
                         <FooterContactInfoWidget/>
                     </div>
                     <!-- <div class="sm:col-span-6 lg:col-span-3 mt-10 lg:mt-0">
                         <FooterWinnerWidget/>
                     </div> -->
-                    <div class="sm:col-span-6 lg:col-span-4 mt-10 lg:mt-0 ord2">
+                  <!--   <div class="sm:col-span-6 lg:col-span-4 mt-10 lg:mt-0 ord2">
                         <FooterMenuList/>
-                    </div>
-                    <div class="sm:col-span-6 lg:col-span-4 ord1 ">
+                    </div> -->
+                    <div class="sm:col-span-12 lg:col-span-6 ord1 ">
                         <FooterInfoWidget/>
                     </div>
                 </div>

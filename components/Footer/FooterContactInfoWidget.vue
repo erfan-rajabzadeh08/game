@@ -1,13 +1,13 @@
 <template>
-    <div class="">
+    <div class="mr-10 ">
         <FooterWidgetTitle :title="title"/>
-        <div class="flex flex-col mb-5 pr-5 xl:pr-0">
-            <span class="text-primary mb-3">Location:</span>
-            <p>136 Harding Ave Wheeling, West Virginia</p>
+        <div class="flex flex-col mb-5  text-right  xl:pr-0">
+            <span class="text-primary mb-3">:آدرس</span>
+            <p>کرمان - رفسنجان خیابان اندیشه نبش کوچه 17</p>
         </div>
-        <div class="flex flex-col">
-            <span class="text-primary mb-3">Phone:</span>
-            <a :href="`tel:${phone}`" class="text-white hover:text-primary transition-all">{{phone}}</a> 
+        <div class="flex flex-col text-right ">
+            <span class="text-primary mb-3">:شماره تماس</span>
+            <a :href="`tel:${phone}`" class="text-white hover:text-primary transition-all">{{phone}}</a>
         </div>
     </div>
 </template>
@@ -18,8 +18,8 @@ export default {
     },
     data () {
         return {
-            title: "Contact",
-            phone: "00 (62) 632 867 4497"
+            title: "",
+            phone: "09217913298"
         }
     },
 }

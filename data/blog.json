@@ -1,0 +1,82 @@
+[
+    {
+        "slug": "1",
+        "date": "20 January 2022",
+        "title": "Wartales is serious making an army of hogs",
+        "imgSrc": "/images/blog/blog1.webp",
+        "imgLarge": "/images/blog/blog-sticky.webp",
+        "blogGrid": "/images/blog/blog-grid-1.webp",
+        "tag": "Gamer",
+        "slugTag": "Gamer"
+    },
+    {
+        "slug": "2",
+        "date": "08 March 2022",
+        "title": "Control the raching mach for best performance.",
+        "imgSrc": "/images/blog/blog2.webp",
+        "imgLarge": "/images/blog/blog-sticky.webp",
+        "blogGrid": "/images/blog/blog-grid-2.webp",
+        "tag": "Adventure",
+        "slugTag": "Adventure"
+    },
+    {
+        "slug": "3",
+        "date": "24 February 2022",
+        "title": "Fights in Tight Spaces review best game",
+        "imgSrc": "/images/blog/blog3.webp",
+        "imgLarge": "/images/blog/blog-sticky.webp",
+        "blogGrid": "/images/blog/blog-grid-3.webp",
+        "tag": "Action",
+        "slugTag": "Action"
+    },
+    {
+        "slug": "4",
+        "date": "26 April 2022",
+        "title": "Completing the mission your match will end",
+        "imgSrc": "/images/blog/blog4.webp",
+        "imgLarge": "/images/blog/blog-sticky.webp",
+        "blogGrid": "/images/blog/blog-grid-4.webp",
+        "tag": "Esports",
+        "slugTag": "Esports"
+    },
+    {
+        "slug": "5",
+        "date": "20 January 2022",
+        "title": "Minecrafts are having an existential crisis",
+        "imgSrc": "/images/blog/blog5.webp",
+        "imgLarge": "/images/blog/blog-sticky.webp",
+        "blogGrid": "/images/blog/blog-grid-5.webp",
+        "tag": "Fantasy",
+        "slugTag": "Fantasy"
+    },
+    {
+        "slug": "6",
+        "date": "08 March 2022",
+        "title": "It is a long established space shooter game",
+        "imgSrc": "/images/blog/blog6.webp",
+        "imgLarge": "/images/blog/blog-sticky.webp",
+        "blogGrid": "/images/blog/blog-grid-6.webp",
+        "tag": "Fortnite",
+        "slugTag": "Fortnite"
+    },
+    {
+        "slug": "7",
+        "date": "24 February 2022",
+        "title": "distracted by readable content page",
+        "imgSrc": "/images/blog/blog7.webp",
+        "imgLarge": "/images/blog/blog-sticky.webp",
+        "blogGrid": "/images/blog/blog-grid-2.webp",
+        "tag": "Gamer",
+        "slugTag": "Gamer"
+    },
+    {
+        "slug": "8",
+        "date": "26 April 2022",
+        "title": "The most popular game controlling device",
+        "imgSrc": "/images/blog/blog8.webp",
+        "imgLarge": "/images/blog/blog-sticky.webp",
+        "blogGrid": "/images/blog/blog-grid-1.webp",
+        "tag": "Matches",
+        "slugTag": "Matches"
+    }
+]

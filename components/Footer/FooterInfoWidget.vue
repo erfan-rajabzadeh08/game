@@ -31,7 +31,7 @@
                         className: "icofont-whatsapp text-white"
                     },
                     {
-                        href: "#",
+                        href: "https://youtube.com/@PlayStation?si=MQx4TZmrMy2dMxxs",
                         BgShape: "/images/icon/youtobe-bg.webp",
                         className: "icofont-youtube-play text-white"
                     },

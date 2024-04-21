@@ -6,12 +6,12 @@
 
                 <h1 class="text-white font-metal uppercase font-normal lg:text-5.5xl md:text-7xl text-5xl tracking-wide mb-6 text-shadow" v-if="BreadcrumbTitle">{{BreadcrumbTitle}}</h1>
 
-                <ul class="flex">
+                <ul class="flex flex-row-reverse">
                     <li>
-                        <n-link class="text-white uppercase text-base sm:text-lg font-bold mr-2 transition-all hover:text-primary" to="/">Home</n-link>
+                        <n-link class="text-white uppercase text-base sm:text-lg font-bold ml-2 transition-all hover:text-primary" to="/">خانه</n-link>
                     </li>
                     <li>
-                        <span class="text-white uppercase text-base sm:text-lg font-bold mr-2">//</span>
+                        <span class="text-white uppercase text-base sm:text-lg font-bold ml-2">//</span>
                     </li>
                     <li>
                         <span class="text-primary uppercase text-base sm:text-lg font-bold" v-if="BreadcrumbSubTitle">{{BreadcrumbSubTitle}}</span>
@@ -31,7 +31,7 @@
             BreadcrumbTitle: {
                 type: String,
                 required: false,
-            }, 
+            },
             BreadcrumbSubTitle: {
                 type: String,
                 required: false,

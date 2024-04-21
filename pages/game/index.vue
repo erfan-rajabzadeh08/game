@@ -5,7 +5,7 @@
 
         <OffCanvasMobileMenu :class="{'show-mobile-menu' : navOpen}" @togglenav="navOpen = !navOpen" />
 
-        <Breadcrumb :BreadcrumbTitle="BreadcrumbTitle" :BreadcrumbSubTitle="BreadcrumbSubTitle"/>
+        <Breadcrumb :BreadcrumbSubTitle="BreadcrumbSubTitle" :BreadcrumbTitle="BreadcrumbTitle" />
 
         <AllGames/>
 
@@ -34,8 +34,8 @@ export default {
         return {
             matchesData,
             navOpen: false,
-            BreadcrumbTitle: "All Bonx Game",
-            BreadcrumbSubTitle: "Games",
+            BreadcrumbTitle: "بازی های مجموعه club80",
+            BreadcrumbSubTitle: "بازی ها",
             paddingTop: "pt-0"
         }
     },

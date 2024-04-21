@@ -36,7 +36,7 @@
                         className: "icofont-youtube-play text-white"
                     },
                     {
-                        href: "https://t.me/erfan_rajabzadeh80",
+                        href: "https://t.me/+989217913298",
                         BgShape: "/images/icon/telegram.webp",
                         className: "icofont-telegram text-white"
                     },

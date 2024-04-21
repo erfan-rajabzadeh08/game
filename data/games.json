@@ -2,44 +2,151 @@
     {
         "gameImage": "/images/others/popular-game-thumb1.jpeg",
         "btnName": "مشاهده بازی",
-        "title": "Dinosours - Hunter Sniper Shooter",
+        "title": "Grand Theft Auto V ,gta",
         "slug": "1",
         "category": "1"
     },
     {
         "gameImage": "/images/others/popular-game-thumb2.jpeg",
         "btnName": "مشاهده بازی",
-        "title": "Alien Space Five Star",
+        "title": "Avatar: Frontiers of Pandora",
         "slug": "2",
         "category": "1"
     },
     {
         "gameImage": "/images/others/popular-game-thumb3.jpeg",
         "btnName": "مشاهده بازی",
-        "title": "Space Adventure - SNIPER SHOOTER",
+        "title": "Red Dead Redemption 2",
         "slug": "3",
         "category": "1"
     },
     {
-        "gameImage": "/images/others/popular-game-thumb4.webp",
+        "gameImage": "/images/others/fc24.jpg",
         "btnName": "مشاهده بازی",
-        "title": "Space Exploration Game",
+        "title": "EA Sports FC 24 fc24",
         "slug": "4",
         "category": "1"
     },
     {
-        "gameImage": "/images/others/popular-game-thumb5.webp",
+        "gameImage": "/images/others/efootball.jpg",
         "btnName": "مشاهده بازی",
-        "title": "Alien Space Seven Star",
+        "title": "eFootball, efootball",
         "slug": "5",
         "category": "1"
     },
     {
-        "gameImage": "/images/others/popular-game-thumb2.webp",
+        "gameImage": "/images/others/rocket.jpg",
         "btnName": "مشاهده بازی",
-        "title": "Alien Space SNIPER SHOOTER",
+        "title": "Rocket League ",
         "slug": "6",
         "category": "1"
     }
-    
+    ,
+    {
+        "gameImage": "/images/others/mortal.jpg",
+        "btnName": "مشاهده بازی",
+        "title": "Mortal Kombat",
+        "slug": "7",
+        "category": "1"
+    },
+    {
+        "gameImage": "/images/others/w2k24.jpg",
+        "btnName": "مشاهده بازی",
+        "title": "WWE 2K24 ,wwe",
+        "slug": "8",
+        "category": "1"
+    },
+    {
+        "gameImage": "/images/others/crash.jpg",
+        "btnName": "مشاهده بازی",
+        "title": "Crash Bandicoot, crash",
+        "slug": "9",
+        "category": "1"
+    },
+    {
+        "gameImage": "/images/others/thelast.webp",
+        "btnName": "مشاهده بازی",
+        "title": "The Last of Us Part II",
+        "slug": "10",
+        "category": "1"
+    },    {
+        "gameImage": "/images/others/godofwar.jpg",
+        "btnName": "مشاهده بازی",
+        "title": "God of War",
+        "slug": "11",
+        "category": "1"
+    },
+    {
+        "gameImage": "/images/others/spider.webp",
+        "btnName": "مشاهده بازی",
+        "title": "Marvel's Spider-Man 2",
+        "slug": "12",
+        "category": "1"
+    }
+    ,
+    {
+        "gameImage": "/images/others/alan.jpg",
+        "btnName": "مشاهده بازی",
+        "title": " Alan Wake II",
+        "slug": "13",
+        "category": "1"
+    }
+    ,
+    {
+        "gameImage": "/images/others/callof.jpg",
+        "btnName": "مشاهده بازی",
+        "title": "Call of Duty",
+        "slug": "14",
+        "category": "1"
+    }
+    ,
+    {
+        "gameImage": "/images/others/avail.jpg",
+        "btnName": "مشاهده بازی",
+        "title": "Resident Evil",
+        "slug": "15",
+        "category": "1"
+    }
+    ,
+    {
+        "gameImage": "/images/others/littel.jpg",
+        "btnName": "مشاهده بازی",
+        "title": "Little Nightmares III",
+        "slug": "16",
+        "category": "1"
+    }
+    ,
+    {
+        "gameImage": "/images/others/unra.jpg",
+        "btnName": "مشاهده بازی",
+        "title": "Unravel Two",
+        "slug": "17",
+        "category": "1"
+    }
+    ,
+    {
+        "gameImage": "/images/others/ufc5.jpg",
+        "btnName": "مشاهده بازی",
+        "title": "EA Sports UFC 5",
+        "slug": "18",
+        "category": "1"
+    }
+    ,
+    {
+        "gameImage": "/images/others/tekken.webp",
+        "btnName": "مشاهده بازی",
+        "title": "Iron Fist, taken5 ,teken, tken",
+        "slug": "19",
+        "category": "1"
+    }
+    ,
+    {
+        "gameImage": "/images/others/Stray.jpg",
+        "btnName": "مشاهده بازی",
+        "title": "Stray",
+        "slug": "20",
+        "category": "1"
+    }
 ]
+
+

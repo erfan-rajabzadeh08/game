@@ -34,8 +34,8 @@
                 btnName: "JOIN NOW",
                 gameHome,
                 navOpen: false,
-                BreadcrumbTitle: "Game Details",
-                BreadcrumbSubTitle: "Game",
+                BreadcrumbTitle: "توضیحات بازی",
+                BreadcrumbSubTitle: "بازی",
                 paddingTop: "pt-32",
                 slug: this.$route.params.slug
             };

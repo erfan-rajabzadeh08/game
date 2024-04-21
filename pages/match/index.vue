@@ -9,8 +9,8 @@
 
         <UpcomingMatches/>
 
-        <CounterUp/>
-
+<!--         <CounterUp/>
+ -->
         <ContactBanner :paddingTop="paddingTop"/>
 
         <Footer/>

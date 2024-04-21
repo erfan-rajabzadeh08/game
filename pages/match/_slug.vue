@@ -66,7 +66,7 @@
                     <n-link to="/contact" class="group primary-btn opacity-100 transition-all" style="background-image:url(/images/others/btn-bg.webp)">
                         {{btnName}}
                         <img src="/images/icon/arrrow-icon.webp" alt="Arrow Icon" class="ml-3 w-5 h-5 group-hover:ml-4 transition-all">
-                    </n-link>  
+                    </n-link>
                 </div>
             </div>
         </div>
@@ -95,8 +95,8 @@
             HeaderSection: () => import('@/components/HeaderSection'),
             OffCanvasMobileMenu: () => import('@/components/Header/OffCanvasMobileMenu'),
             Breadcrumb: () => import('@/components/Breadcrumb'),
-            CounterUp: () => import('@/components/CounterUp'),
-            ContactBanner: () => import('@/components/ContactBanner'),
+/*             CounterUp: () => import('@/components/CounterUp'),
+ */            ContactBanner: () => import('@/components/ContactBanner'),
             Footer: () => import('@/components/Footer')
         },
         data() {

@@ -7,12 +7,12 @@
         "playBtn": "/images/others/play-btn2.webp",
         "playAlt": "Gaming BG",
         "src": "/video/videop5.mp4",
+        "stream": "Live Stream",
         "autoplay": true,
         "slug": "1",
         "gamingBg": "/images/bg/gamebg.png",
         "gamingAlt": "Gaming BG",
-        "playBtnOne": "/images/others/buttonplay.png",
-        "thumb":"/images/others/popular-game-thumb1.jpeg"
+        "playBtnOne": "/images/others/buttonplay.png"
 
 
     },

@@ -1,11 +1,11 @@
 <template>
     <div class="container relative">
-        <p class="date text-primary font-bold mb-3">03 January, 2021, 05:01:00 AM</p>
+        <p class="date text-primary font-bold mb-3 :">03 January, 2021, 05:01:00 AM</p>
         <h2 class="text-white font-bold uppercase xl:text-title lg:text-5xl md:text-4xl sm:text-3xl text-2xl xl:leading-70 lg:leading-12 leading-10">{{games.title}}</h2>
         <div class="content-details">
             <div class="description mt-6">
-                <p class="leading-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap electro typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <p class="leading-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap electro typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p class="leading-8"></p>
+                <p class="leading-8">{{ games.description }}</p>
             </div>
 
             <div class="gameslide my-15">
@@ -13,7 +13,7 @@
                 <swiper class="swiper" :options="swiperOption">
                     <swiper-slide v-for="(game, imageIndex) in gameslide" :key="imageIndex">
                         <div class="relative">
-                            <img class="sm:h-full h-64 w-full object-cover" :src="`${game.gamingBg}`">
+                            <img class="sm:h-full h-64 w-full object-cover" :src="games.gameImage">
                         </div>
                     </swiper-slide>
                 </swiper>
@@ -79,12 +79,13 @@
                 <p class="leading-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap electro typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
         </div>
-        
+
         <Disqus class=" mt-10" shortname='Admin' />
   </div>
 </template>
 
 <script>
+  import gameHome from '@/data/games.json'
 import { Swiper, SwiperSlide } from 'vue-awesome-swiper';
 import { Disqus } from 'vue-disqus'
 export default {
@@ -95,7 +96,7 @@ export default {
     },
     props: ["games"],
     data () {
-        return {    
+        return {
             swiperOption: {
                 slidesPerView: 1,
                 spaceBetween: 30,

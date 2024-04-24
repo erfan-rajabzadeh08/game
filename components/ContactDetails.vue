@@ -1,8 +1,8 @@
 <template>
     <!-- Contact Details Start -->
     <div class="lg:mb-32 md:mb-20 mb-15">
-        <div class="container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-            <div class="text-white align-cener bg-no-repeat bg-scroll bg-center bg-cover md:pt-14 md:pb-12 md:px-12 sm:py-14 sm:px-6 py-14 px-10 h-460 pl-15" :style="{backgroundImage: `url(${ service.videoBannerBg })`}" v-for="(service, index) in services" :key="index">
+        <div dir="rtl" class="container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div class="text-white align-center bg-no-repeat bg-scroll bg-center bg-cover md:pt-14 md:pb-12 md:px-12 sm:py-14 sm:px-6 py-14 px-10 h-460 pl-15" :style="{backgroundImage: `url(${ service.videoBannerBg })`}" v-for="(service, index) in services" :key="index">
                 <div class="mb-120 align-center" :class="service.imageposition">
                     <img :src="service.imgSrc" :alt="service.name">
                 </div>
@@ -10,8 +10,8 @@
                     <h3 class="text-white font-exo text-xl md:text-3xl font-bold uppercase mb-4">{{service.live}}</h3>
                     <span class="text-white">
                         <p class="text-lg leading-9">{{service.text}}</p>
-                        <a :href="service.linkOnehref" class="block mb-2 last:mb-0 text-lg transition-all hover:text-primary">{{service.linkOne}}</a>
-                        <a :href="service.linkTwohref" class="block mb-2 last:mb-0 text-lg transition-all hover:text-primary">{{service.linkTwo}}</a>
+                        <a :href="service.linkOnehref" class="block mb-2 last:mb-0 text-lg transition-all text-color " >{{service.linkOne}} </a>
+                        <a :href="service.linkTwohref" class="block mb-2 last:mb-0 text-lg transition-all text-color ">{{service.linkTwo}}</a>
                     </span>
                 </div>
             </div>
@@ -26,41 +26,47 @@
             return {
                 services: [
                     {
-                        imgSrc: "/images/icon/email.webp",
+                        imgSrc: "/images/icon/instagram.png",
                         name: "Service Image",
-                        live: "Email:",
-                        videoBannerBg: "/images/others/gaming-world-bg1.webp",
-                        imageposition: "text-left",
-                        contentposition: "text-left",
-                        linkOnehref: "mailto:gamestudio@gmail.com",
-                        linkOne: "gamestudio@gmail.com",
-                        linkTwohref: "mailto:support24@gmail.com",
-                        linkTwo: "support24@gmail.com"
+                        live: "اینستاگرام :",
+                        videoBannerBg: "/images/others/gaming-world-bg3.webp",
+                        imageposition: "text-right",
+                        contentposition: "text-right",
+                        linkOnehref: "https://www.instagram.com/club80.game?igsh=ZjRoM21vNTN2Zm5i",
+                        linkOne: "گیم نت club80",
+                      /*   linkTwohref: "mailto:support24@gmail.com",
+                        linkTwo: "support24@gmail.com" */
 
                     },
                     {
-                        imgSrc: "/images/icon/location.webp",
+                        imgSrc: "/images/icon/location.png",
                         name: "Service Image",
-                        live: "Location:",
+                        live: ":آدرس",
                         videoBannerBg: "/images/others/gaming-world-bg2.webp",
-                        text: "100 N Aurora Ave #APT 19 Oakland, Nebraska(NE), 68045",
+                        text: "کرمان رفسنجان خیابان اندیشه نبش کوچه17",
                         imageposition: "text-center",
                         contentposition: "text-center"
                     },
                     {
-                        imgSrc: "/images/icon/phone.webp",
+                        imgSrc: "/images/icon/phone.png",
                         name: "Service Image",
-                        live: "Phone:",
-                        videoBannerBg: "/images/others/gaming-world-bg3.webp",
-                        imageposition: "text-right",
+                        live: "شماره تماس :",
+                        videoBannerBg: "/images/others/gaming-world-bg1.webp",
+                        imageposition: "text-left",
                         contentposition: "text-right",
-                        linkOnehref: "mailto:(402)685-5964",
-                        linkOne: "(402) 685-5964",
-                        linkTwohref: "+88(00)4568457437",
-                        linkTwo: "+88 (00) 4568 457 437"
+                        linkTwohref: "tel:09217913298",
+                        linkTwo: "09217913298 ",
+
+                       /*  linkTwohref: "+88(00)4568457437",
+                        linkTwo: "+88 (00) 4568 457 437" */
                     }
                 ]
             }
         },
     }
 </script>
+<style scoped>
+.text-color:hover{
+color:  rgb(79,95,255);
+}
+</style>

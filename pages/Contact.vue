@@ -1,20 +1,20 @@
 <template>
   <div class="bg-cover bg-gray-800" style="background-image:url(/images/bg/body-bg2.webp);">
-    
+
     <HeaderSection/>
 
     <OffCanvasMobileMenu :class="{'show-mobile-menu' : navOpen}" @togglenav="navOpen = !navOpen" />
-    
+
     <Breadcrumb :BreadcrumbTitle="BreadcrumbTitle" :BreadcrumbSubTitle="BreadcrumbSubTitle"/>
 
     <ContactDetails />
 
-    <ContactForm />
+<!--     <ContactForm /> -->
 
     <GoogleMaps />
 
-    <ContactBanner :paddingTop="paddingTop"/>
-
+<!--     <ContactBanner :paddingTop="paddingTop"/>
+ -->
     <Footer/>
 
   </div>
@@ -35,8 +35,8 @@ export default {
   data() {
       return {
           navOpen: false,
-          BreadcrumbTitle: "Contact Us",
-          BreadcrumbSubTitle: "Contact-Us",
+          BreadcrumbTitle: "ارتباط با ما ",
+          BreadcrumbSubTitle: "ارتباط با ما ",
           paddingTop: "pt-32"
       }
   },

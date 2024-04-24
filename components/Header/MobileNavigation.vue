@@ -8,9 +8,9 @@
                 <li class="menu-item-has-children">
                     <n-link class=" text-white text-xl text-right font-semibold capitalize block pb-4 pt-4 pt- border-b-1 border-gray-200 transition-all hover:text-primary text-black text-dark" to="/game">بازی ها</n-link>
                 </li>
-                <li class="menu-item-has-children ">
+             <!--    <li class="menu-item-has-children ">
                     <n-link class=" text-white text-xl text-right font-semibold  capitalize block pb-4 pt-4 pt- border-b-1 border-gray-200 transition-all hover:text-primary text-black text-dark" to="/about">درباره ما </n-link>
-                </li>
+                </li> -->
                 <li class="menu-item-has-children ">
                     <n-link class=" text-white  text-xl text-right font-semibold capitalize block pb-4 pt-4 pt- border-b-1 border-gray-200 transition-all hover:text-primary text-black text-dark" to="/contact">ارتباط با ما </n-link>
                 </li>

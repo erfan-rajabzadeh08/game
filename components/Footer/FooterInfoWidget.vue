@@ -3,7 +3,7 @@
         <!-- Footer Logo Start -->
         <div class="footer-logo">
         <NuxtLink to="/" class="mb-10">
-            <img class="rounded-2xl	 mb-6" src="/images/logo1.jpg" alt="Footer Logo" width="90" height="90" 	>
+            <img class=" logo-fot rounded-2xl	 mb-6" src="/images/logo1.jpg" alt="Footer Logo" width="90" height="90" 	>
         </NuxtLink>
     </div>
         <!-- Footer Logo End -->
@@ -52,3 +52,10 @@
         }
     }
 </script>
+
+
+<style scoped>
+.logo-fot{
+    mix-blend-mode: lighten;
+}
+</style>

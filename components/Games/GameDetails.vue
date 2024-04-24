@@ -104,7 +104,7 @@
       </div>
     </section> -->
 <div dir="rtl" class="rounded-2xl mt-12 overflow-hidden">
-<video :src="games.src"  poster="/images/bg/gamebunner.png" controls></video>
+<video preload :src="games.src"  poster="/images/bg/gamebunner.png" controls></video>
 </div>
 
       <div dir="rtl" class="description mt-6">

@@ -1,9 +1,11 @@
 <template>
     <div class="flex flex-col text-right mr-10	">
         <!-- Footer Logo Start -->
+        <div class="footer-logo">
         <NuxtLink to="/" class="mb-10">
-            <img src="/images/logo.webp" alt="Footer Logo">
+            <img class="rounded-2xl	 mb-6" src="/images/logo1.jpg" alt="Footer Logo" width="90" height="90" 	>
         </NuxtLink>
+    </div>
         <!-- Footer Logo End -->
 
         <!-- Text Start -->

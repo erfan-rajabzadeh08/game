@@ -26,7 +26,7 @@
             return {
                 services: [
                     {
-                        imgSrc: "/images/icon/instagram.png",
+                        imgSrc: "/images/icon/i.png",
                         name: "Service Image",
                         live: "اینستاگرام :",
                         videoBannerBg: "/images/others/gaming-world-bg3.webp",
@@ -50,7 +50,7 @@
                     {
                         imgSrc: "/images/icon/phone.png",
                         name: "Service Image",
-                        live: "شماره تماس :",
+                        live: "شماره تماس:",
                         videoBannerBg: "/images/others/gaming-world-bg1.webp",
                         imageposition: "text-left",
                         contentposition: "text-right",

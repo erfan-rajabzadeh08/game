@@ -7,10 +7,10 @@
                 <div class="category-filter">
                     <div class="filter-option ">
                         <select id="selectgame" v-model="selectedCategory" dir="rtl" class="px-5 h-14 w-full mb-8 sm:mb-0 sm:w-64 text-white bg-secondary-100 border-2 border-solid rounded-lg focus:outline-none border-gray-400 block">
-                            <option value="" class="bg-black">دسته بندی</option>
+                            <option value="" class="bg-black">ژانر بازی ها</option>
                             <option value="1">ورزشی</option>
-                            <option value="2">رازآلود و معمایی</option>
-                            <option value="3">اکشن</option>
+                            <option value="2">درام رازآبود معمایی</option>
+                            <option value="3">اکشن ماجراجویی هیجانی</option>
                <!--              <option value="4">Collage</option>
                             <option value="5">Game one</option> -->
                         </select>

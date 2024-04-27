@@ -26,27 +26,27 @@
         },
         data() {
             return {
-                title:"بهترین و پر هیجان ترین سبک بازی های دنیا",
+                title:"جدیدترین بازی ها، قوی ترین سیستم ها ",
                 services: [
                     {
                         imgSrc: "/images/others/sport-image.png",
                         name: "Service Image",
                         live: "ورزشی ",
-                        text: "هیجانات و در کنار تمزکز را توی زمین فوتبال می توان تجربه کرد ",
+                        text: "در این ژانر محبوب، شما می توانید در نقش ورزشکاران محبوب خود ظاهر شوید و در قالب تیم های مورد علاقه تان به رقابت بپردازید",
                         videoBannerBg: "/images/others/gaming-world-bg1.webp"
                     },
                     {
                         imgSrc: "/images/others/gaming-world2.png",
                         name: "Service Image",
-                        live: "اکشن",
-                        text: "ساعتی رو فقط با حریفت مبارزه کن و استراتژی های خودتو نشون بده",
+                        live: "اکشن ماجراجویی",
+                        text: "آدرنالین در خون شما موج خواهد زد",
                         videoBannerBg: "/images/others/gaming-world-bg2.webp"
                     },
                     {
                         imgSrc: "/images/others/game3.png",
                         name: "Service Image",
-                        live: "معمایی و راز آلود",
-                        text: "اگردنبال بازی های پیچیده و مفهومی هستی میتونی ساعت ها بشینی از این بازی ها لذت ببری",
+                        live: "رازآلود معمایی       ",
+                        text: "در اعماق تاریکی، جایی که سایه ها رازها را در آغوش خود می گیرند و سکوت فریاد می زند، آیا شجاعت کافی برای کشف حقیقت را دارید؟",
                         videoBannerBg: "/images/others/gaming-world-bg3.webp"
                     },
                 ]

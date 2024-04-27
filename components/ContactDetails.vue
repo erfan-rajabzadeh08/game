@@ -41,7 +41,7 @@
                     {
                         imgSrc: "/images/icon/location.png",
                         name: "Service Image",
-                        live: ":آدرس",
+                        live: "آدرس :",
                         videoBannerBg: "/images/others/gaming-world-bg2.webp",
                         text: "کرمان رفسنجان خیابان اندیشه نبش کوچه17",
                         imageposition: "text-center",
@@ -50,7 +50,7 @@
                     {
                         imgSrc: "/images/icon/phone.png",
                         name: "Service Image",
-                        live: "شماره تماس:",
+                        live: "شماره تماس :",
                         videoBannerBg: "/images/others/gaming-world-bg1.webp",
                         imageposition: "text-left",
                         contentposition: "text-right",

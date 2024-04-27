@@ -4,11 +4,11 @@
         <nav>
             <ul class="flex  nav-home">
                 <li class="relative mr-14 group z-10 before:bg-nav-shape before:empty-content before:absolute before:w-23.5 before:h-11 before:z-n1 before:top-1/2 before:left-1/2 before:transform before:-translate-x-2/4 before:-translate-y-2/4 before:transition-all before:opacity-0 hover:before:opacity-100">
-                    <NuxtLink to="/" class="text-white uppercase text-xl font-bold  relative">خانه </NuxtLink>
+                    <NuxtLink to="/" class="text-white uppercase text-xl   relative">خانه </NuxtLink>
                 </li>
 
                 <li class="relative mr-14 group z-10 before:bg-nav-shape before:empty-content before:absolute before:w-23.5 before:h-11 before:z-n1 before:top-1/2 before:left-1/2 before:transform before:-translate-x-2/4 before:-translate-y-2/4 before:transition-all before:opacity-0 hover:before:opacity-100">
-                    <NuxtLink to="/game" class="text-white uppercase text-xl font-bold  relative">بازی ها</NuxtLink>
+                    <NuxtLink to="/game" class="text-white uppercase text-xl  relative">بازی ها</NuxtLink>
                 </li>
                <!--  <li class="relative mr-14 group z-10 before:bg-nav-shape before:empty-content before:absolute before:w-23.5 before:h-11 before:z-n1 before:top-1/2 before:left-1/2 before:transform before:-translate-x-2/4 before:-translate-y-2/4 before:transition-all before:opacity-0 hover:before:opacity-100">
                     <NuxtLink to="/about" class="text-white uppercase text-xl font-bold  relative">درباره ما </NuxtLink>
@@ -16,7 +16,7 @@
 
 
                 <li class="relative content-nav group z-10 before:bg-nav-shape before:empty-content before:absolute before:w-23.5 before:h-11 before:z-n1 before:top-1/2 before:left-1/2 before:transform before:-translate-x-2/4 before:-translate-y-2/4 before:transition-all before:opacity-0 hover:before:opacity-100">
-                    <NuxtLink to="/contact" class="text-white uppercase text-xl font-bold  relative">ارتباط باما</NuxtLink>
+                    <NuxtLink to="/contact" class="text-white uppercase text-xl   relative">ارتباط باما</NuxtLink>
                 </li>
 
 

@@ -1,6 +1,7 @@
 <template>
     <div class="container mt-120 mb-120">
-        <TitleSection :title="title" :text="text"/>
+        <TitleSection :title="title" :text="text" />
+
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-6">
             <div class="relative group before:empty-content before:absolute before:w-full before:h-full before:opacity-0 before:bg-black before:top-0 before:left-0 before:right-0 before:bottom-0 overflow-hidden hover:before:opacity-70 transition-all hover:before:transition-all before:border-4 before:border-white before:rounded-4xl before:border-opacity-20" v-for="(games, index) in gameHome.slice(0, 4)" :key="index">
                 <img class="w-full rounded-4xl" :src="games.gameImage" alt="Feature Icon">
@@ -30,8 +31,8 @@
 
 <style scoped>
 .btn-color{
-    background: rgb(27,0,65);
-background: linear-gradient(330deg, rgba(27,0,65,1) 14%, rgba(98,18,132,1) 67%, rgba(29,1,67,1) 98%);
+background: rgb(164,50,241);
+background: linear-gradient(210deg, rgba(164,50,241,1) 21%, rgba(95,0,158,1) 67%);
 border-radius: 15px;
 font-size: 19px;
 width: 40%;

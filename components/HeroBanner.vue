@@ -4,8 +4,8 @@
         <div class="container">
             <div class="relative 2xl:pt-20 lg:pt-16 md:pt-10 sm:pt-8 pt-8 md:mb-12 z-10 flex flex-col justify-center items-center lg:items-end lg:text-left text-center align-end">
 
-                <h1 class="h1-fontsize text-white text-right font-metal uppercase font-normal 2xl:text-7.5xl xl:text-8xl lg:text-5.5xl md:text-7xl text-5xl tracking-wide xl:mb-10 lg:mb-8 mb-5 text-shadow">اینجا فقط بازی نیست<br> سرزمین عجایب 80 است</h1>
-                <p class="text-white font-semibold font-exo lg:mb-10 md:mb-6 text-base lg:text-3xl mb-5"> !جایی که بازی، زندگی می شود  <i>club80</i></p>
+                <h1 class="h1-fontsize text-white text-right font-metal uppercase font-normal  2xl:text-7xl xl:text-7xl lg:text-6xl md:text-6xl text-4xl tracking-wide xl:mb-10 lg:mb-8 mb-5 text-shadow">اینجا فقط بازی نیست<br> سرزمین عجایب 80 است</h1>
+                <p class="text-white font-semibold font-exo lg:mb-10 md:mb-6 text-base lg:text-3xl mb-5">!جایی که بازی، زندگی می شود<i>club80</i></p>
 
                 <PrimaryButton/>
 
@@ -91,9 +91,8 @@
   }
 }
 
-@media only screen and (min-width: 1000px) {
+ @media only screen and (min-width: 1000px) {
 .h1-fontsize{
-  font-size: 75px !important  ;
   line-height: 1.2 !important ;
 }
 }

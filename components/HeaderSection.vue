@@ -2,7 +2,7 @@
     <!-- Header Section Start -->
     <header class="fixed left-0 right-0 z-99" :class="{'is-sticky': isSticky}">
         <div class="container">
-            <div class="flex header-home py-3 items-center justify-between">
+            <div class="flex header-home pt-8 py-3 items-center justify-between">
 
                 <HeaderLogo/>
 

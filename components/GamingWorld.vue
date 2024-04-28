@@ -26,7 +26,7 @@
         },
         data() {
             return {
-                title:"جدیدترین بازی ها، قوی ترین سیستم ها ",
+                title:"جدیدترین بازی ها، قوی ترین سیستم ها",
                 services: [
                     {
                         imgSrc: "/images/others/sport-image.png",

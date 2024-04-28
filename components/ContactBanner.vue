@@ -31,8 +31,8 @@ export default {
 </script>
 <style scoped>
 .btn-color{
-    background: rgb(27,0,65);
-background: linear-gradient(330deg, rgba(27,0,65,1) 14%, rgba(98,18,132,1) 67%, rgba(29,1,67,1) 98%);
+    background: rgb(133,16,213);
+background: linear-gradient(210deg, rgba(133,16,213,1) 36%, rgba(58,8,92,1) 83%);
 border-radius: 15px;
 font-size: 19px;
 }

@@ -6,7 +6,7 @@
             <div class="flex flex-col sm:flex-row-reverse justify-between ">
                 <div class="category-filter">
                     <div class="filter-option ">
-                        <select id="selectgame" v-model="selectedCategory" dir="rtl" class="px-5 h-14 w-full mb-8 sm:mb-0 sm:w-64 text-white bg-secondary-100 border-2 border-solid rounded-lg focus:outline-none border-gray-400 block">
+                        <select id="selectgame" v-model="selectedCategory" dir="rtl" class=" px-1 h-14 w-full mb-8 sm:mb-0 sm:w-64 text-white bg-secondary-100 border-2 border-solid rounded-lg focus:outline-none border-gray-400 block">
                             <option value="" class="bg-black">ژانر بازی ها</option>
                             <option value="1">ورزشی</option>
                             <option value="2">درام رازآبود معمایی</option>
@@ -19,8 +19,8 @@
                 <div class="search-filter">
                     <div class="search-bx" >
                         <form action="#" class="relative" dir="rtl" @submit.prevent="searchGames" >
-                            <input type="text" placeholder="جستجو" v-model="searchText" class="px-5 h-14 w-full sm:w-64 bg-secondary-100 border-2 border-solid rounded-lg focus:outline-none">
-                            <button type="submit" class="absolute px-5 top-0 bottom-0 left-0 bg-transparent transition-all inline-block h-full text-white hover:text-primary">
+                            <input type="text" placeholder="جستجو" v-model="searchText" class="px-3 h-14 w-full sm:w-64 bg-secondary-100 border-2 border-solid rounded-lg focus:outline-none">
+                            <button type="submit" class="absolute px-3.5 top-0 bottom-0 left-0 bg-transparent transition-all inline-block h-full text-white hover:text-primary">
                                 <i class="icofont-search-1"></i>
                             </button>
                         </form>
@@ -64,7 +64,7 @@
 
 <style scoped>
 .btn-color{
-    background: rgb(164,50,241);
+background: rgb(164,50,241);
 background: linear-gradient(210deg, rgba(164,50,241,1) 21%, rgba(95,0,158,1) 67%);
 border-radius: 15px;
 font-size: 19px;

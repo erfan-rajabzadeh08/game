@@ -11,10 +11,10 @@
                         <n-link class="text-white uppercase text-base sm:text-lg font-bold ml-2 transition-all hover:text-primary" to="/">خانه</n-link>
                     </li>
                     <li>
-                        <span class="text-white uppercase text-base sm:text-lg font-bold ml-2">//</span>
+                        <span class="text-white uppercase text-base sm:text-lg font-bold ml-2">/</span>
                     </li>
                     <li>
-                        <span class="text-primary uppercase text-base sm:text-lg font-bold" v-if="BreadcrumbSubTitle">{{BreadcrumbSubTitle}}</span>
+                        <span class="text-primary uppercase text-base sm:text-lg " v-if="BreadcrumbSubTitle">{{BreadcrumbSubTitle}}</span>
                     </li>
                 </ul>
 

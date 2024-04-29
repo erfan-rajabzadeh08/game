@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'club80game',
+    title: 'club80game|گیم نت کلاب 80',
     htmlAttrs: {
       lang: 'en'
     },

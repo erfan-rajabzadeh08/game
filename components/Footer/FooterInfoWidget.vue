@@ -37,11 +37,11 @@
                         BgShape: "/images/icon/bg-icon.webp",
                         className: "icofont-youtube-play icon-color"
                     },
-                    {
+                  /*   {
                         href: "https://t.me/+989217913298",
                         BgShape: "/images/icon/bg-icon.webp",
                         className: "icofont-telegram icon-color"
-                    },
+                    }, */
                     {
                         href: "https://www.instagram.com/club80.game?igsh=ZjRoM21vNTN2Zm5i",
                         BgShape: "/images/icon/bg-icon.webp",

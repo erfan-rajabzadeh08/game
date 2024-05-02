@@ -79,6 +79,28 @@ height: 65px;
 
 }
 
+@media only screen and (max-width: 400px) {
+.btn-color{
+background: rgb(164,50,241);
+background: linear-gradient(210deg, rgba(164,50,241,1) 21%, rgba(95,0,158,1) 67%);
+border-radius: 15px;
+font-size: 17px;
+width: 50%;
+height: 65px;
+}
+@media only screen and (max-width: 400px) {
+    .btn-color{
+background: rgb(164,50,241);
+background: linear-gradient(210deg, rgba(164,50,241,1) 21%, rgba(95,0,158,1) 67%);
+border-radius: 15px;
+font-size: 17px;
+width: 50%;
+height: 65px;
+}
+
+}
+}
+
 </style>
 
 

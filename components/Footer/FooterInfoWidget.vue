@@ -9,7 +9,7 @@
         <!-- Footer Logo End -->
 
         <!-- Text Start -->
-        <p dir="rtl" class="text-start text-xl">گیم نت <strong>club80</strong> .با ارائه پلی استیشن 5 و تلویزیون 4K  ومحیطی پر هیجان همراه با کافی شاپ آماده ساخت یک روز رویایی برای شماست</p>
+        <p dir="rtl" class="text-start text-xl">گیم نت <strong>club80</strong> با ارائه پلی استیشن 5 و تلویزیون 4K  ومحیطی پر هیجان همراه با کافی شاپ آماده ساخت یک روز رویایی برای شماست</p>
         <!-- Text End -->
         <!-- Social Icon List Start -->
         <ul class="flex mt-4 justify-end">

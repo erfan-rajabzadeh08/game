@@ -26,7 +26,7 @@
     "slug": "2",
     "category": "2",
     "playAlt": "Gaming BG",
-    "src": "/video/videop5.mp4",
+    "src": "/video/last.mp4",
 
     "autoplay": true,
     "playBtn": "/images/others/play-btn2.webp",
@@ -58,7 +58,7 @@
     "slug": "4",
     "category": "2",
     "playAlt": "Gaming BG",
-    "src": "/video/videop5.mp4",
+    "src": "/video/god.mp4",
 
     "autoplay": true,
     "playBtn": "/images/others/play-btn2.webp",
@@ -74,7 +74,7 @@
     "slug": "5",
     "category": "1",
     "playAlt": "Gaming BG",
-    "src": "/video/videop5.mp4",
+    "src": "/video/efoot.mp4",
 
     "autoplay": true,
     "playBtn": "/images/others/play-btn2.webp",
@@ -90,7 +90,7 @@
     "slug": "6",
     "category": "1",
     "playAlt": "Gaming BG",
-    "src": "/video/videop5.mp4",
+    "src": "/video/rocet.mp4",
 
     "autoplay": true,
     "playBtn": "/images/others/play-btn2.webp",
@@ -106,7 +106,7 @@
     "slug": "7",
     "category": "3",
     "playAlt": "Gaming BG",
-    "src": "/video/videop5.mp4",
+    "src": "/video/mortal.mp4",
 
     "autoplay": true,
     "playBtn": "/images/others/play-btn2.webp",
@@ -122,7 +122,7 @@
     "slug": "8",
     "category": "1",
     "playAlt": "Gaming BG",
-    "src": "/video/videop5.mp4",
+    "src": "/video/kosht.mp4",
 
     "autoplay": true,
     "playBtn": "/images/others/play-btn2.webp",
@@ -138,7 +138,7 @@
     "slug": "9",
     "category": "3",
     "playAlt": "Gaming BG",
-    "src": "/video/videop5.mp4",
+    "src": "/video/crash.mp4",
 
     "autoplay": true,
     "playBtn": "/images/others/play-btn2.webp",

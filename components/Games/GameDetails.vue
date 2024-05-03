@@ -1,7 +1,7 @@
-<template>
+<template >
   <div class="container relative">
     <div class="relative overflow-hidden rounded-2xl">
-          <img
+          <img 
             class="sm:h-full h-64 w-full object-cover"
             :src="games.gameImage"
           />
@@ -103,11 +103,11 @@
         </div>
       </div>
     </section> -->
-<div dir="rtl" class="rounded-2xl mt-12 overflow-hidden">
+<div dir="rtl" class="rounded-2xl mt-12 overflow-hidden" >
 <video preload :src="games.src"  poster="/images/bg/gamebunner.png" controls></video>
 </div>
 
-      <div dir="rtl" class="description mt-6">
+      <div dir="rtl"  class="description mt-6">
         <p class="leading-8">{{ games.details3 }} </p>
         <p class="leading-8">
           {{ games.details4 }}
@@ -126,10 +126,11 @@
 <script>
 import CoolLightBox from "vue-cool-lightbox";
 import "vue-cool-lightbox/dist/vue-cool-lightbox.min.css";
-import gameData from "@/data/games.json";
+//import gameHome from "@/data/games.json";
 import "@/assets/css/swiper.css";
 import { Swiper } from "vue-awesome-swiper";
 import { Disqus } from "vue-disqus";
+
 export default {
   components: {
     Swiper,
@@ -139,9 +140,8 @@ export default {
   props: ["games"],
   data() {
     return {
-      gameData,
-
-        swiperOption: {
+        // gameHome ,
+          swiperOption: {
           slidesPerView: 1,
           spaceBetween: 30,
           pagination: false,

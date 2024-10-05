@@ -31,7 +31,7 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-6 item-display">
             <div class="item relative group before:empty-content before:absolute before:w-full before:h-full before:opacity-0 before:bg-black before:top-0 before:left-0 before:right-0 before:bottom-0 overflow-hidden hover:before:opacity-70 transition-all hover:before:transition-all before:border-4 before:border-white before:rounded-4xl before:border-opacity-20" v-for="(games, index) in filteredGames" :key="index">
-                <img class="w-full rounded-4xl" :src="games.gameImage" alt="Feature Icon">
+                <img class="w-full rounded-4xl h-full" :src="games.gameImage" alt="Feature Icon">
                 <n-link :to="`/game/${games.slug}`" class="group primary-btn absolute-center btn-color opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all" >
                     <img src="/images/icon/arrrow-left-icon.webp" alt="Arrow Icon" class="Aroww-icon ml-3 w-5 h-5 group-hover:ml-4 transition-all">
                     {{games.btnName}}
@@ -63,6 +63,7 @@
 </script>
 
 <style scoped>
+
 .btn-color{
 background: rgb(164,50,241);
 background: linear-gradient(210deg, rgba(164,50,241,1) 21%, rgba(95,0,158,1) 67%);
